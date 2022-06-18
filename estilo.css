@@ -28,8 +28,8 @@ body{
 .bubbles span
 {
     position: relative;
-    width: 1vw;
-    height: 1vh;
+    width: 30px;
+    height: 30px;
     background: #0602dc;
     margin: 0 4px;
     border-radius: 50%;
@@ -62,7 +62,21 @@ body{
 @media screen and (max-width:1200px){
     .bubbles span
 {
-    
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width:900px){
+    .bubbles span
+{
+    width: 10px;
+    height: 10px;
+}
+@media screen and (max-width:600px){
+    .bubbles span
+{
+    width: 8px;
+    height: 8px;
+   
 }
     
 }
