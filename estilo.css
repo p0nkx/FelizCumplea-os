@@ -103,11 +103,11 @@ body{
 }
     
 }
-/*
+
 #cuadro{
-    width: 70%;
-    height: 70%;
-    background: #fff;
+ 
+   
+    
     position: absolute;
     top:0;
     left: 0;
@@ -115,4 +115,11 @@ body{
     bottom: 0;
     margin: auto;
     z-index: 1000;
-}*/
+    overflow: hidden;
+    display: flex;
+   
+}
+#cuadro img{
+    object-fit:contain;
+    
+}
