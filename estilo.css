@@ -117,7 +117,7 @@ body{
     z-index: 1000;
     overflow: hidden;
     display: flex;
-   
+   justify-content: center;
 }
 #cuadro img{
     object-fit:contain;
