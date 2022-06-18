@@ -9,6 +9,7 @@ body{
     min-height: 100vh;
     background: #a71717;
     position: relative;
+    min-width: 600px;
 }
 .container
 {
@@ -37,7 +38,7 @@ body{
     0 0 100px #0602dc;
     animation: animate 15s linear infinite;
     animation-duration: calc(125s / var(--i));
-    
+    z-index: 2000;
 }
 .bubbles span:nth-child(even)
 {
@@ -118,8 +119,11 @@ body{
     overflow: hidden;
     display: flex;
    justify-content: center;
+   align-items: center;
 }
 #cuadro img{
     object-fit:contain;
+    width: 50%;
     
 }
+/* agregar sonido de miraculus y voz dce loquendo diciendo que la invitamos a mi cumple*/
