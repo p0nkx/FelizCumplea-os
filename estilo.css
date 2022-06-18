@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -27,8 +28,8 @@ body{
 .bubbles span
 {
     position: relative;
-    width: 30px;
-    height: 30px;
+    width: 1vw;
+    height: 1vh;
     background: #0602dc;
     margin: 0 4px;
     border-radius: 50%;
@@ -58,7 +59,14 @@ body{
 
 
 }
-
+@media screen and (max-width:1200px){
+    .bubbles span
+{
+    
+}
+    
+}
+/*
 #cuadro{
     width: 70%;
     height: 70%;
@@ -70,4 +78,4 @@ body{
     bottom: 0;
     margin: auto;
     z-index: 1000;
-}
+}*/
